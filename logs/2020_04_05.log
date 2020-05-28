@@ -1,0 +1,31 @@
+[2020-04-05 15:58:18,058] - logger.py] - INFO: ------登录失败用例：start!---------
+[2020-04-05 15:58:18,910] - logger.py] - INFO: 获取请求结果：{"resultNumber":null,"id":null,"name":null,"num":170,"list":null,"status":null,"jpGoodRuleDTO":null,"mobile":null,"newMobile":null,"idNum":null,"inId":"ba46a6","inCode":null}
+[2020-04-05 16:00:16,122] - logger.py] - INFO: ------登录失败用例：start!---------
+[2020-04-05 16:00:16,258] - logger.py] - INFO: 获取请求结果：{"resultNumber":null,"id":null,"name":null,"num":170,"list":null,"status":null,"jpGoodRuleDTO":null,"mobile":null,"newMobile":null,"idNum":null,"inId":"ba46a6","inCode":null}
+[2020-04-05 16:19:24,002] - logger.py] - INFO: ------登录失败用例：start!---------
+[2020-04-05 16:19:25,959] - logger.py] - INFO: 获取请求结果：{"resultNumber":null,"id":null,"name":null,"num":170,"list":null,"status":null,"jpGoodRuleDTO":null,"mobile":null,"newMobile":null,"idNum":null,"inId":"ba46a6","inCode":null}
+[2020-04-05 16:21:33,542] - logger.py] - INFO: ------登录失败用例：start!---------
+[2020-04-05 16:21:33,649] - logger.py] - INFO: 获取请求结果：{"resultNumber":null,"id":null,"name":null,"num":170,"list":null,"status":null,"jpGoodRuleDTO":null,"mobile":null,"newMobile":null,"idNum":null,"inId":"ba46a6","inCode":null}
+[2020-04-05 16:40:20,791] - logger.py] - INFO: ================================== 测试开始 ==================================
+[2020-04-05 16:41:29,189] - logger.py] - INFO: ================================== 测试开始 ==================================
+[2020-04-05 16:42:16,872] - logger.py] - INFO: ================================== 测试开始 ==================================
+[2020-04-05 16:42:32,701] - logger.py] - INFO: ================================== 测试开始 ==================================
+[2020-04-05 16:43:39,848] - logger.py] - INFO: ================================== 测试开始 ==================================
+[2020-04-05 17:07:56,167] - logger.py] - INFO: ------登录失败用例：start!---------
+[2020-04-05 17:07:56,288] - logger.py] - INFO: 获取请求结果：{"resultNumber":null,"id":null,"name":null,"num":170,"list":null,"status":null,"jpGoodRuleDTO":null,"mobile":null,"newMobile":null,"idNum":null,"inId":"ba46a6","inCode":null}
+[2020-04-05 17:15:22,878] - logger.py] - INFO: ------登录失败用例：start!---------
+[2020-04-05 17:15:23,636] - logger.py] - INFO: 获取请求结果：{"resultNumber":null,"id":null,"name":null,"num":170,"list":null,"status":null,"jpGoodRuleDTO":null,"mobile":null,"newMobile":null,"idNum":null,"inId":"ba46a6","inCode":null}
+[2020-04-05 17:15:37,391] - logger.py] - INFO: ------登录失败用例：start!---------
+[2020-04-05 17:15:37,480] - logger.py] - INFO: 获取请求结果：{"resultNumber":null,"id":null,"name":null,"num":170,"list":null,"status":null,"jpGoodRuleDTO":null,"mobile":null,"newMobile":null,"idNum":null,"inId":"ba46a6","inCode":null}
+[2020-04-05 17:16:03,881] - logger.py] - INFO: ------登录失败用例：start!---------
+[2020-04-05 17:16:03,973] - logger.py] - INFO: 获取请求结果：{"resultNumber":null,"id":null,"name":null,"num":170,"list":null,"status":null,"jpGoodRuleDTO":null,"mobile":null,"newMobile":null,"idNum":null,"inId":"ba46a6","inCode":null}
+[2020-04-05 17:16:40,097] - logger.py] - INFO: ------登录失败用例：start!---------
+[2020-04-05 17:16:40,203] - logger.py] - INFO: 获取请求结果：{"resultNumber":null,"id":null,"name":null,"num":170,"list":null,"status":null,"jpGoodRuleDTO":null,"mobile":null,"newMobile":null,"idNum":null,"inId":"ba46a6","inCode":null}
+[2020-04-05 17:16:40,530] - logger.py] - INFO: ------登录失败用例：start!---------
+[2020-04-05 17:16:40,630] - logger.py] - INFO: 获取请求结果：{"resultNumber":null,"id":null,"name":null,"num":170,"list":null,"status":null,"jpGoodRuleDTO":null,"mobile":null,"newMobile":null,"idNum":null,"inId":"ba46a6","inCode":null}
+[2020-04-05 17:19:09,468] - logger.py] - INFO: ================================== 测试开始 ==================================
+[2020-04-05 17:19:11,767] - logger.py] - INFO: ------登录失败用例：start!---------
+[2020-04-05 17:19:11,855] - logger.py] - INFO: 获取请求结果：{"resultNumber":null,"id":null,"name":null,"num":170,"list":null,"status":null,"jpGoodRuleDTO":null,"mobile":null,"newMobile":null,"idNum":null,"inId":"ba46a6","inCode":null}
+[2020-04-05 17:19:12,870] - logger.py] - INFO: ------登录失败用例：start!---------
+[2020-04-05 17:19:12,984] - logger.py] - INFO: 获取请求结果：{"resultNumber":null,"id":null,"name":null,"num":170,"list":null,"status":null,"jpGoodRuleDTO":null,"mobile":null,"newMobile":null,"idNum":null,"inId":"ba46a6","inCode":null}
+[2020-04-05 17:19:13,348] - logger.py] - INFO: ================================== 测试结束 ==================================

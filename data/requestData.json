@@ -1,0 +1,35 @@
+{
+  "FenLei_001":{
+  "cover": "https://oss.zjtianhepm.com/dyk-test/goods_type/1574252623184.jpg",
+  "delFlag": 0,
+  "id": "",
+  "level":2,
+  "parentId":0,
+  "showStatus": 1,
+  "sortIndex": 100,
+  "title": "测试图片1",
+  "typeId": 1
+},
+    "login_002":{
+"app_id":"201808291707251386531",
+"method":"openapi.payment.store.query",
+"format":"json",
+"sign_method":"md5",
+"nonce":"87sdf9806sdf73jkds",
+"version":"1.0",
+"biz_content":"{\"store_name\":\"欧欧\"}",
+"sign":"8C7DF610ECB03AEA0DA6AA64F6D8C572"
+},
+    "login_003":{
+"app_id":"20180829170725138653",
+"method":"openapi.payment.store.query",
+"format":"json",
+"sign_method":"md5",
+"nonce":"87sdf9806sdf73jkds",
+"version":"1.0",
+"biz_content":"{\"store_name\":\"欧欧\"}",
+"sign":"8C7DF610ECB03AEA0DA6AA64F6D8C572"
+},
+    "login_004":{"postId":"3845123","blogApp":"siyunianhua","_":"1557553713217"},
+    "login_005":{"message": "HelloWorld"}
+}

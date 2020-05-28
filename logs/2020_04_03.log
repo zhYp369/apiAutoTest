@@ -1,0 +1,6 @@
+[2020-04-03 17:55:20,602] - logger.py] - INFO: ------登录失败用例：start!---------
+[2020-04-03 17:55:20,697] - logger.py] - INFO: 获取请求结果：{"resultNumber":null,"id":null,"name":null,"num":170,"list":null,"status":null,"jpGoodRuleDTO":null,"mobile":null,"newMobile":null,"idNum":null,"inId":"ba46a6","inCode":null}
+[2020-04-03 17:55:45,667] - logger.py] - INFO: ------登录失败用例：start!---------
+[2020-04-03 17:55:45,759] - logger.py] - INFO: 获取请求结果：{"resultNumber":null,"id":null,"name":null,"num":170,"list":null,"status":null,"jpGoodRuleDTO":null,"mobile":null,"newMobile":null,"idNum":null,"inId":"ba46a6","inCode":null}
+[2020-04-03 17:56:50,812] - logger.py] - INFO: ------登录失败用例：start!---------
+[2020-04-03 17:56:50,906] - logger.py] - INFO: 获取请求结果：{"resultNumber":null,"id":null,"name":null,"num":170,"list":null,"status":null,"jpGoodRuleDTO":null,"mobile":null,"newMobile":null,"idNum":null,"inId":"ba46a6","inCode":null}
