@@ -30,12 +30,14 @@ def get_data_func_list(str_func):
     :param str_func:
     :return: 返回匹配到的方法（list）
     """
-    str_gs = "^.*---([0-9a-zA-Z\_\(\)]*)---.*$"
-    zcObject = re.match(str_gs, str_func)
-    func_list = []
-    if zcObject:
-        func_list = zcObject.groups()
+    str_gs = "\|{2}.*?\|{2}"
+    func_list = re.findall(str_gs, str_func)
     return func_list
+
+
+
+
+
 
 
 

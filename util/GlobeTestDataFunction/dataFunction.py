@@ -13,7 +13,6 @@ from util.zhengzebiaodashi.getdata_fromzhengze import get_data_func_list, get_zh
 from util.num.get_random import *
 
 
-
 def check_function_entrance(req_data_str):
     """
     判断请求报文是否有数据方法
@@ -29,7 +28,7 @@ def check_function_entrance(req_data_str):
 
 def getfunc_value(func_str):
     value = ""
-    zz_gs = "^.*\((.*?)\)$"
+    zz_gs = ".*\((.*?)\).*"
     if "readen_str" in func_str:
         n = get_zhengzedata(zz_gs, func_str)[0]
         print(n)
@@ -47,6 +46,8 @@ def getfunc_value(func_str):
         print(type_time)
         value = get_time_str(type_time)
         return value
+
+
 
 
 

@@ -1,11 +1,20 @@
-aesKey: 123
-signKey: 456
 
-DB:
+# 项目数据库地址
+project_DB:
   host:
   port:
   dbname:
   username:
   password:
+  
+# 项目工程ip和端口地址
+engineering_host:
+    fpsyy-interface: http://172.25.2.91:59003
+    
+
+# 其他配置
+other_data:
+    aesKey: 123
+    signKey: 456
 
 
