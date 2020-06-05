@@ -10,10 +10,11 @@
 
 # import allure
 # import pytest
-from util.fileEdit.get_data import *
 # from util.sysEdit.filepathEdit import *
+from util.fileEdit.get_data import *
 from testcase.test_zwcm.apicommon import *
-import json
+from page.api_globle_func.edit_api_data import get_api_all, updata_req_data_for_api_all
+from page.project_req_func.ZWCM.zwcm_req_funcs import globle_req
 
 
 # 本工程地址
@@ -33,37 +34,23 @@ run_testdata = get_run_testdata(apitest_case_data)
 
 testdata = run_testdata[0]
 
+# 获取接口信息和测试数据
+api_all_dict = get_api_all(testdata, api_config_list, project_config_data, req_data_dir_path)
 
-# 根据api_id获取对应接口基本信息
-api_id = testdata.get("api_id")
-api_config_dict = get_api_config(api_id, api_config_list)
+# 更新接口测试数据
+api_all_dict = updata_req_data_for_api_all(api_all_dict)
 
-# get接口url
-host_prot = project_config_data.get("engineering_host").get(api_config_dict.get("api_engineering"))
-api_url = api_config_dict.get("api_url")
-url = host_prot + api_url
+# 根据接口信息选择对应的接口请求方法
+respon = globle_req(api_all_dict)
 
+print(respon)
 
-# get接口header
-api_header_str = testdata.get("api_header")
-import json
-
-api_header_dict = json.loads(s=api_header_str)
-
-# 请求数据获取
-if testdata.get("is_file") == "yes":
-    # 读取存储请求数据的文件，获取请求数据
-    req_data_file_path = os.path.join(req_data_dir_path, testdata.get("api_data"))
-    with open(req_data_file_path, "r", encoding="utf8") as f:
-        req_data_str = f.read()
-else:
-    req_data_str = testdata.get("api_data")
+# if api_all_dict.get()
 
 
-# 请求数据，数据方法处理
-new_req_data_str = updata_req_data(req_data_str)
 
-# 将请求数据加密
+
+
 
 
 
