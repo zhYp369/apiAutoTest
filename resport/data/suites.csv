@@ -1,0 +1,4 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Wed Aug 26 15:11:36 CST 2020","Wed Aug 26 15:11:37 CST 2020","364","testcase.fpt","test_fpt_rhqz","","","","kj_b_01@蓝票_一行明细","
+    用例描述：测试不同的timestamp和target
+    "

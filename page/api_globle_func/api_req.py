@@ -12,7 +12,7 @@
 import requests
 
 
-def req_http(method, url, **kwargs):
+def req_http(method, url, kwargs):
     """
 
     :param method:

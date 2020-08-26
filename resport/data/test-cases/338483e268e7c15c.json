@@ -1,0 +1,73 @@
+{
+  "uid" : "338483e268e7c15c",
+  "name" : "kj_b_01@蓝票_一行明细",
+  "fullName" : "testcase.fpt.test_fpt_rhqz#test_timestamp",
+  "historyId" : "8f6e8740d01947fea3a0eb211a87b2ba",
+  "time" : {
+    "start" : 1598425896871,
+    "stop" : 1598425897235,
+    "duration" : 364
+  },
+  "description" : "\n    用例描述：测试不同的timestamp和target\n    ",
+  "descriptionHtml" : "<pre><code>用例描述：测试不同的timestamp和target\n</code></pre>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "中文天地项目接口测试"
+  }, {
+    "name" : "story",
+    "value" : "订单上传接口"
+  }, {
+    "name" : "tag",
+    "value" : "A"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcase.fpt"
+  }, {
+    "name" : "suite",
+    "value" : "test_fpt_rhqz"
+  }, {
+    "name" : "host",
+    "value" : "admin"
+  }, {
+    "name" : "thread",
+    "value" : "280532-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.fpt.test_fpt_rhqz"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "expected",
+    "value" : "'\"returnCode\":\"0000\",\"returnMessage\":\"成功\"'"
+  }, {
+    "name" : "testdata",
+    "value" : "{'case_id': 'kj_b_01', 'api_id': 'fpkj', 'api_engineering': 'fpt-rhqz', 'api_name': '发票开具', 'api_describe': '发票通融合前置接口', 'url': 'http://172.25.2.106:52157/fpt-rhqz/prepose', 'cookie': 'no', 'tonken': 'no', 'method': 'POST', 'header': {'Content-Type': 'application/json'}, 'interfaceCode': 'GP_FPKJ', 'global_data': '{\\n\\t\"interface\": {\\n\\t\\t\"globalInfo\": {\\n\\t\\t\\t\"appId\": \"\",\\n\\t\\t\\t\"interfaceId\": \"\",\\n\\t\\t\\t\"interfaceCode\": \"GP_SKSBXXCX\",\\n\\t\\t\\t\"requestCode\": \"DZFPQZ\",\\n\\t\\t\\t\"requestTime\": \"2020-08-26 15:11:36\",\\n\\t\\t\\t\"responseCode\": \"DS\",\\n\\t\\t\\t\"dataExchangeId\": \"\"\\n\\t\\t},\\n\\t\\t\"returnStateInfo\": {\\n\\t\\t\\t\"returnCode\": \"\",\\n\\t\\t\\t\"returnMessage\": \"\"\\n\\t\\t},\\n\\t\\t\"data\": {\\n\\t\\t\\t\"dataDescription\": {\\n\\t\\t\\t\\t\"zipCode\": \"\"\\n\\t\\t\\t},\\n\\t\\t\\t\"content\": \"\",\\n\\t\\t\\t\"contentKey\": \"\"\\n\\t\\t}\\n\\t}\\n}\\n\\n\\n \\n \\n \\n ', 'data': '{\"REQUEST_COMMON_FPKJ\": {\\n\\t\\t\"NSRSBH\": \"110109500321654\",\\n\\t\\t\"SBLX\": \"4\",\\n\\t\\t\"SBBH\": \"\",\\n\\t\\t\"FPQQLSH\": \"auto2020082615113686\",\\n\\t\\t\"KPZDDM\": \"\",\\n\\t\\t\"FPLXDM\": \"026\",\\n\\t\\t\"KPLX\": \"0\",\\n\\t\\t\"BMB_BBH\": \"\",\\n\\t\\t\"ZSFS\": \"0\",\\n\\t\\t\"XSF_NSRSBH\": \"110109500321654\",\\n\\t\\t\"XSF_MC\": \"百旺电子测试1\",\\n\\t\\t\"XSF_DZDH\": \"地址市期以西南湖南路以期以西南湖南路以期123456049湖南路以期012065东北民谣呀东北民谣呀东北民谣呀12100\",\\n\\t\\t\"XSF_YHZH\": \"银行市期以西南湖南路以期以西南湖南路以期123456049湖南路以期012A65东北民谣呀东北民谣呀东北民谣呀12100\",\\n\\t\\t\"GMF_NSRSBH\": \"\",\\n\\t\\t\"GMF_MC\": \"购买方期以西南湖南路以期以西南湖南路以期123456049湖南路以期012065东北民谣呀东北民谣呀东北民谣呀12100\",\\n\\t\\t\"GMF_DZDH\": \"\",\\n\\t\\t\"GMF_YHZH\": \"\",\\n\\t\\t\"GMF_SJH\": \"\",\\n\\t\\t\"GMF_DZYX\": \"zouxh@fapiao.com\",\\n\\t\\t\"FPT_ZH\": \"\",\\n\\t\\t\"WX_OPENID\": \"\",\\n\\t\\t\"KPR\": \"开票人\",\\n\\t\\t\"SKR\": \"\",\\n\\t\\t\"FHR\": \"\",\\n\\t\\t\"YFP_DM\": \"\",\\n\\t\\t\"YFP_HM\": \"\",\\n\\t\\t\"JSHJ\": \"85\",\\n\\t\\t\"HJJE\": \"82.52\",\\n\\t\\t\"HJSE\": \"2.48\",\\n\\t\\t\"KCE\": \"\",\\n\\t\\t\"BZ\": \"\",\\n\\t\\t\"BY1\": \"\",\\n\\t\\t\"BY2\": \"\",\\n\\t\\t\"BY3\": \"\",\\n\\t\\t\"BY4\": \"\",\\n\\t\\t\"BY5\": \"\",\\n\\t\\t\"BY6\": \"\",\\n\\t\\t\"BY7\": \"\",\\n\\t\\t\"BY8\": \"\",\\n\\t\\t\"BY9\": \"\",\\n\\t\\t\"BY10\": \"\",\\n\\t\\t\"WX_ORDER_ID\": \"\",\\n\\t\\t\"WX_APP_ID\": \"\",\\n\\t\\t\"ZFB_UID\": \"\",\\n\\t\\t\"TSPZ\": \"\",\\n\\t\\t\"QJ_ORDER_ID\": \"\",\\n\\t\\t\"QDBZ\": \"\",\\n\\t\\t\"TZDBH\": \"\",\\n\\t\\t\"COMMON_FPKJ_XMXX\": [\\n\\t\\t\\t{\\n\\t\\t\\t\\t\"FPHXZ\": \"0\",\\n\\t\\t\\t\\t\"SPBM\": \"3040303019900000000\",\\n\\t\\t\\t\\t\"ZXBM\": \"\",\\n\\t\\t\\t\\t\"YHZCBS\": \"\",\\n\\t\\t\\t\\t\"LSLBS\": \"\",\\n\\t\\t\\t\\t\"ZZSTSGL\": \"\",\\n\\t\\t\\t\\t\"XMMC\": \"*广告服务*服务费\",\\n\\t\\t\\t\\t\"GGXH\": \"\",\\n\\t\\t\\t\\t\"DW\": \"\",\\n\\t\\t\\t\\t\"XMSL\": \"\",\\n\\t\\t\\t\\t\"XMDJ\": \"\",\\n\\t\\t\\t\\t\"XMJE\": \"82.52\",\\n\\t\\t\\t\\t\"SL\": \"0.03\",\\n\\t\\t\\t\\t\"SE\": \"2.48\",\\n                \"HSBZ\": \"\",\\n\\t\\t\\t\\t\"BY1\": \"\",\\n\\t\\t\\t\\t\"BY2\": \"\",\\n\\t\\t\\t\\t\"BY3\": \"\",\\n\\t\\t\\t\\t\"BY4\": \"\",\\n\\t\\t\\t\\t\"BY5\": \"\"\\n\\t\\t\\t}\\n\\t\\t]\\n\\t},\\n\\t\"CALLBACK_URL\": \"\",\\n\\t\"LSH\": \"\",\\n}', 'expected': '\"returnCode\":\"0000\",\"returnMessage\":\"成功\"', 'test_discribe': '蓝票_一行明细', 'other_data': {'appid': 'b292a318343e62bbd3fb97c66344a6300dae158de43eba8e24d126b12ce09d64', 'aeskey': '0A15027A838704C3'}, 'is_run': 'yes'}"
+  }, {
+    "name" : "title",
+    "value" : "'kj_b_01@蓝票_一行明细'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "A" ]
+  },
+  "source" : "338483e268e7c15c.json",
+  "parameterValues" : [ "'\"returnCode\":\"0000\",\"returnMessage\":\"成功\"'", "{'case_id': 'kj_b_01', 'api_id': 'fpkj', 'api_engineering': 'fpt-rhqz', 'api_name': '发票开具', 'api_describe': '发票通融合前置接口', 'url': 'http://172.25.2.106:52157/fpt-rhqz/prepose', 'cookie': 'no', 'tonken': 'no', 'method': 'POST', 'header': {'Content-Type': 'application/json'}, 'interfaceCode': 'GP_FPKJ', 'global_data': '{\\n\\t\"interface\": {\\n\\t\\t\"globalInfo\": {\\n\\t\\t\\t\"appId\": \"\",\\n\\t\\t\\t\"interfaceId\": \"\",\\n\\t\\t\\t\"interfaceCode\": \"GP_SKSBXXCX\",\\n\\t\\t\\t\"requestCode\": \"DZFPQZ\",\\n\\t\\t\\t\"requestTime\": \"2020-08-26 15:11:36\",\\n\\t\\t\\t\"responseCode\": \"DS\",\\n\\t\\t\\t\"dataExchangeId\": \"\"\\n\\t\\t},\\n\\t\\t\"returnStateInfo\": {\\n\\t\\t\\t\"returnCode\": \"\",\\n\\t\\t\\t\"returnMessage\": \"\"\\n\\t\\t},\\n\\t\\t\"data\": {\\n\\t\\t\\t\"dataDescription\": {\\n\\t\\t\\t\\t\"zipCode\": \"\"\\n\\t\\t\\t},\\n\\t\\t\\t\"content\": \"\",\\n\\t\\t\\t\"contentKey\": \"\"\\n\\t\\t}\\n\\t}\\n}\\n\\n\\n \\n \\n \\n ', 'data': '{\"REQUEST_COMMON_FPKJ\": {\\n\\t\\t\"NSRSBH\": \"110109500321654\",\\n\\t\\t\"SBLX\": \"4\",\\n\\t\\t\"SBBH\": \"\",\\n\\t\\t\"FPQQLSH\": \"auto2020082615113686\",\\n\\t\\t\"KPZDDM\": \"\",\\n\\t\\t\"FPLXDM\": \"026\",\\n\\t\\t\"KPLX\": \"0\",\\n\\t\\t\"BMB_BBH\": \"\",\\n\\t\\t\"ZSFS\": \"0\",\\n\\t\\t\"XSF_NSRSBH\": \"110109500321654\",\\n\\t\\t\"XSF_MC\": \"百旺电子测试1\",\\n\\t\\t\"XSF_DZDH\": \"地址市期以西南湖南路以期以西南湖南路以期123456049湖南路以期012065东北民谣呀东北民谣呀东北民谣呀12100\",\\n\\t\\t\"XSF_YHZH\": \"银行市期以西南湖南路以期以西南湖南路以期123456049湖南路以期012A65东北民谣呀东北民谣呀东北民谣呀12100\",\\n\\t\\t\"GMF_NSRSBH\": \"\",\\n\\t\\t\"GMF_MC\": \"购买方期以西南湖南路以期以西南湖南路以期123456049湖南路以期012065东北民谣呀东北民谣呀东北民谣呀12100\",\\n\\t\\t\"GMF_DZDH\": \"\",\\n\\t\\t\"GMF_YHZH\": \"\",\\n\\t\\t\"GMF_SJH\": \"\",\\n\\t\\t\"GMF_DZYX\": \"zouxh@fapiao.com\",\\n\\t\\t\"FPT_ZH\": \"\",\\n\\t\\t\"WX_OPENID\": \"\",\\n\\t\\t\"KPR\": \"开票人\",\\n\\t\\t\"SKR\": \"\",\\n\\t\\t\"FHR\": \"\",\\n\\t\\t\"YFP_DM\": \"\",\\n\\t\\t\"YFP_HM\": \"\",\\n\\t\\t\"JSHJ\": \"85\",\\n\\t\\t\"HJJE\": \"82.52\",\\n\\t\\t\"HJSE\": \"2.48\",\\n\\t\\t\"KCE\": \"\",\\n\\t\\t\"BZ\": \"\",\\n\\t\\t\"BY1\": \"\",\\n\\t\\t\"BY2\": \"\",\\n\\t\\t\"BY3\": \"\",\\n\\t\\t\"BY4\": \"\",\\n\\t\\t\"BY5\": \"\",\\n\\t\\t\"BY6\": \"\",\\n\\t\\t\"BY7\": \"\",\\n\\t\\t\"BY8\": \"\",\\n\\t\\t\"BY9\": \"\",\\n\\t\\t\"BY10\": \"\",\\n\\t\\t\"WX_ORDER_ID\": \"\",\\n\\t\\t\"WX_APP_ID\": \"\",\\n\\t\\t\"ZFB_UID\": \"\",\\n\\t\\t\"TSPZ\": \"\",\\n\\t\\t\"QJ_ORDER_ID\": \"\",\\n\\t\\t\"QDBZ\": \"\",\\n\\t\\t\"TZDBH\": \"\",\\n\\t\\t\"COMMON_FPKJ_XMXX\": [\\n\\t\\t\\t{\\n\\t\\t\\t\\t\"FPHXZ\": \"0\",\\n\\t\\t\\t\\t\"SPBM\": \"3040303019900000000\",\\n\\t\\t\\t\\t\"ZXBM\": \"\",\\n\\t\\t\\t\\t\"YHZCBS\": \"\",\\n\\t\\t\\t\\t\"LSLBS\": \"\",\\n\\t\\t\\t\\t\"ZZSTSGL\": \"\",\\n\\t\\t\\t\\t\"XMMC\": \"*广告服务*服务费\",\\n\\t\\t\\t\\t\"GGXH\": \"\",\\n\\t\\t\\t\\t\"DW\": \"\",\\n\\t\\t\\t\\t\"XMSL\": \"\",\\n\\t\\t\\t\\t\"XMDJ\": \"\",\\n\\t\\t\\t\\t\"XMJE\": \"82.52\",\\n\\t\\t\\t\\t\"SL\": \"0.03\",\\n\\t\\t\\t\\t\"SE\": \"2.48\",\\n                \"HSBZ\": \"\",\\n\\t\\t\\t\\t\"BY1\": \"\",\\n\\t\\t\\t\\t\"BY2\": \"\",\\n\\t\\t\\t\\t\"BY3\": \"\",\\n\\t\\t\\t\\t\"BY4\": \"\",\\n\\t\\t\\t\\t\"BY5\": \"\"\\n\\t\\t\\t}\\n\\t\\t]\\n\\t},\\n\\t\"CALLBACK_URL\": \"\",\\n\\t\"LSH\": \"\",\\n}', 'expected': '\"returnCode\":\"0000\",\"returnMessage\":\"成功\"', 'test_discribe': '蓝票_一行明细', 'other_data': {'appid': 'b292a318343e62bbd3fb97c66344a6300dae158de43eba8e24d126b12ce09d64', 'aeskey': '0A15027A838704C3'}, 'is_run': 'yes'}", "'kj_b_01@蓝票_一行明细'" ]
+}
